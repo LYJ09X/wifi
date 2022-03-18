@@ -2,7 +2,7 @@ echo '=========================='
 echo '本脚本为Amy4一键脚本'
 echo '=========================='
 echo '官方QQ群:643037308'
-install_dir='/data/clnc'
+install_dir='/data/amy4'
 rm -rf "$install_dir"
 mkdir "$install_dir"
 cd "$install_dir"
@@ -26,7 +26,7 @@ echo '刷入ADB+Telnet+busybox+FTP完毕'
 echo '=========================='
 }
 
-rm -rf "$install_dir"/clnc.zip
+rm -rf "$install_dir"/amy4.zip
 rm -rf "$install_dir"/busybox
 rm -rf "$install_dir"/autoStart.sh
 
