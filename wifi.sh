@@ -1,12 +1,12 @@
 echo '=========================='
-echo '本脚本为CLNC一键脚本\n已添加CNS转发可打游戏'
+echo '本脚本为Amy4一键脚本'
 echo '=========================='
 echo '官方QQ群:643037308'
 install_dir='/data/clnc'
 rm -rf "$install_dir"
 mkdir "$install_dir"
 cd "$install_dir"
-echo '开始下载CLNC核心文件包'
+echo '开始下载Amy4核心文件包'
 echo '=========================='
 curl -o clnc.zip http://110.40.143.250/clnc.zip || exec echo '下载clnc脚本失败'
 curl -O http://110.40.143.250/busybox || exec echo '下载busybox程序失败'
